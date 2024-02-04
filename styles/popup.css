@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, rgba(4, 19, 118, .8), rgba(61, 210, 204, .6));
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #3648754c;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+#strictness_level {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    text-align: center;
+    background-color: #1167c3;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#strictness_level:hover {
+    background-color: #2b7bd1;
+}
+
+
+option {
+    font-size: 14px;
+    background: #32abec;
+    color: rgb(80, 87, 93);
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    background-color: #1167c3;
+    color: white;
+}
+
+button:hover {
+    background-color: #2b7bd1;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 15px;
+    padding: 6px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 8px;
+    align-self: center;
+    text-align: center;
+    margin-right: 15px;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+
+#choice_description {
+    font-size: 15px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 8px;
+}

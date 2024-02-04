@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/popup.css">
+</head>
+
+<body>
+    <header>
+        <h1>Focus Search</h1>
+    </header>
+    <main>
+        <form>
+            <label for="strictness_level">Select Your Strictness Mode</label>
+            <select id="strictness_level" required="true">
+                <option selected disabled hidden>select</option>
+                <option value="1">Warning Only</option> <!--Warns user about off topic search.-->
+                <option value="2">Redirect</option>
+                <!--Redirects user to https://www.google.com/ when search does not contain keyword.-->
+            </select>
+
+            <p id="choice_description" hidden> </p>
+            <div id="conditional_input" hidden></div> <!--input based on user choice-->
+            <button id="submit_button" hidden> Submit </button>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="../scripts/popup.js"></script>
+</body>
+
+</html>
